@@ -202,12 +202,43 @@ table { border-collapse: collapse; border-spacing: 0; }
    ========================================================================== */
 article { font-family: Georgia; font-size: 1.25em;}
 h1,h2,h3 { font-family: Arial;}
-h1 { color: #FF9400;}
+h2 { color: #009B95;}
+.title { color: #FD0006;}
+span.author { font-size: 0.75em;}
 body { background-color: #f7f7f7;}
 #container { width: 860px; margin: 0 auto;}
-em {background-color: #FFF694; font-style: normal;}
+em,strong { background-color: #FFF694; }
+em {font-style: normal;}
+.gist-highlight { height: 150px;}
+background-color: #FFF694;
 
-
+button.css3button {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 14px;
+	color: #ffffff;
+	padding: 10px 20px;
+	background: -moz-linear-gradient(
+		top,
+		#cd0074 0%,
+		#3b343b);
+	background: -webkit-gradient(
+		linear, left top, left bottom, 
+		from(#cd0074),
+		to(#3b343b));
+	border-radius: 30px;
+	-moz-border-radius: 30px;
+	-webkit-border-radius: 30px;
+	border: 1px solid #949494;
+	-moz-box-shadow:
+		0px 1px 3px rgba(092,088,092,0.5),
+		inset 0px 0px 1px rgba(255,255,255,0.7);
+	-webkit-box-shadow:
+		0px 1px 3px rgba(092,088,092,0.5),
+		inset 0px 0px 1px rgba(255,255,255,0.7);
+	text-shadow:
+		0px -1px 0px rgba(000,000,000,0.4),
+		0px 1px 0px rgba(255,255,255,0.3);
+}
 
 
 
